@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "475905247673",
+    "firebase_url": "https://instaclone-ad9b0-default-rtdb.firebaseio.com",
+    "project_id": "instaclone-ad9b0",
+    "storage_bucket": "instaclone-ad9b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475905247673:android:96ade7e3b54b1a3f1f4e68",
+        "android_client_info": {
+          "package_name": "com.example.aydenhomes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCahJklldInY7jHNpQohbhFfsBu4eRCiWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

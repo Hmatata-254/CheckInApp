@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="255dp"
+    android:layout_height="210dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    android:layout_margin="3dp"
+    android:padding="5dp"
+    android:elevation="25dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="260dp"
+            android:layout_height="150dp"
+            android:id="@+id/imgFrontView"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="false"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHouseID"
+            android:text="House No 1"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:gravity="start"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtType"
+            android:text="Single room"
+            android:fontFamily="@font/cabin"
+            android:textStyle="bold"
+            android:layout_marginStart="7dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:gravity="start"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:id="@+id/btnDetails"
+            android:layout_marginStart="120dp"
+            android:textAlignment="center"
+            android:background="@drawable/viewdetails_back"
+            android:text="View Details"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/heading"
+            android:padding="5dp"
+            android:gravity="end"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDescript"
+            android:text="Description"
+            android:maxLines="0"/>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

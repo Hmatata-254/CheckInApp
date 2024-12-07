@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MaintainanceActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="30dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp"
+            android:background="@drawable/boarder_line">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Raise a Ticket"
+                android:textAlignment="center"
+                android:fontFamily="@font/heading"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:text="Description"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:background="@drawable/back_line2"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="85dp"
+                    android:hint="Describe issue"
+                    android:id="@+id/etDesc"/>
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Category"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/back_line2"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/categorySpinner"
+                    android:spinnerMode="dropdown"
+                    android:padding="5dp"
+                    android:dropDownWidth="match_parent"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:background="@drawable/back_line2">
+                <ImageView
+                    android:id="@+id/btnUploadImg"
+                    android:layout_width="145dp"
+                    android:layout_height="115dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/upload" />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="bottom">
+
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+                    android:id="@+id/btnSave"
+                    android:text="Raise ticket"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/heading"
+                    android:background="@drawable/black_button"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    tools:ignore="RtlCompat" />
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</ScrollView>

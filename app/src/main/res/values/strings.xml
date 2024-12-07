@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ayden Homes</string>
+    <string name="welcome">Welcome</string>
+    <string name="log_in">Log in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="create_account">Create account</string>
+    <string name="sign_in">Sign in</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="last_name">Last name</string>
+    <string name="first_name">First name</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="tickets">Tickets</string>
+    <string name="maintainance">Maintainance</string>
+    <string name="current_booking">Current Booking</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="hello_jane">Hello Jane</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="room_details">Room details</string>
+</resources>
