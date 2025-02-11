@@ -1,4 +1,4 @@
-# CheckInApp Room bookin# Hussein Homes - Room Booking and Complaint Management App
+# CheckInApp Room - Room Booking and Complaint Management App
 
 An intuitive Android application designed to manage room bookings and complaints for **Centain Hotel**, a hotel with variety of different rooms. The app simplifies room management and provides an efficient way for tenants to communicate their concerns.
 
